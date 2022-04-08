@@ -1,11 +1,9 @@
-from queue import PriorityQueue
-
 
 class Events():
     def __init__(self) -> None:
         self.wygrana_w_karty = False
         self.spotkanie_uzdrowiciela = False
-        self.zwał = False
+        self.zawal = False
 
     def envents(self, player):
 
@@ -24,7 +22,7 @@ class Events():
             print("\t \t \t \tSpotykasz uzdrowiciela leczy cię do max ")
             print("<>==<>"*10)
 
-        if player.level == 5 and self.zwał == False:
+        if player.level == 5 and self.zawal == False:
             player.hp = -100
             print("<>==<>"*10)
             print("\t \t \t \tDostałeś zawału serca umierasz ;( ")
