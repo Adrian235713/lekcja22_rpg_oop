@@ -11,7 +11,7 @@ class Czarodziejka():
         print("c - 400g - Heal - 200m - +100hp")
         print("t - Towarzystwo")
 
-# Może kupić zaklęcia ale nie te metody nie istnieją w graczu XD możesz dodać ;) 
+# Może kupić zaklęcia, ale te metody nie istnieją, w graczu XD możesz dodać ;)
 
     def wizyta(self, player):
 

@@ -63,9 +63,9 @@ class Player(BasicMinion):
 # --------------------------------------------------------------------
     def księga_zaklęć(self,opponent):
         print("z"*40)
-        print(f"a - zansz - {self.Fire_ball} - Fire_ball {self.Fire_ball}")
-        print(f"b - zansz - {self.Lightning} - Lightning ")
-        print(f"c - zansz - {self.Heal}      - Heal")
+        print(f"a - znasz - {self.Fire_ball} - Fire_ball {self.Fire_ball}")
+        print(f"b - znasz - {self.Lightning} - Lightning ")
+        print(f"c - znasz - {self.Heal}      - Heal")
         print("z"*40)
         inp = input("? - ")
         if inp.lower() == "a":

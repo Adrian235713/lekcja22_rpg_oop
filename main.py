@@ -42,7 +42,7 @@ while game:
         elif what_are_you_doing.lower() == "c":
             sprzedawca.towarzystwo()
         else:
-            print("Wybacz przyjacielu ale nie prowadzę takich usług !")
+            print("Wybacz przyjacielu, ale nie prowadzę takich usług !")
     # -------------------------------------------------------------- 
     elif what_are_you_doing.lower() == "cz":
         czarodziejka.inf()
