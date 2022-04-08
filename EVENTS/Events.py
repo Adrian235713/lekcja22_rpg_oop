@@ -10,14 +10,14 @@ class Events():
     def envents(self, player):
 
         if player.level == 2 and self.wygrana_w_karty == False:
-            self.wygrana_w_karty == True
+            self.wygrana_w_karty = True
             player.goold += 50
             print("<>==<>"*10)
             print("\t \t \t \tSpotykasz i ogrywasz Trolla w karty -Zyskujesz 50 sztuk złota ")
             print("<>==<>"*10)
 
         if player.level == 3 and self.spotkanie_uzdrowiciela == False:
-            self.spotkanie_uzdrowiciela == True
+            self.spotkanie_uzdrowiciela = True
             player.hp = player.max_hp
             player.goold += 50
             print("<>==<>"*10)
